@@ -1,6 +1,7 @@
 import Config from './config/app_config';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
+import './main.css';
 
 export class MovieApp{
     constructor(){
