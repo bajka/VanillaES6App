@@ -1,3 +1,34 @@
-span#basic-addon2 {
+span#random-search {
     cursor: pointer;
+}
+#movie-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+.jumbotron.jumbotron-fluid {
+    background-image: url(https://swank.azureedge.net/swank/prod-media/13063/16_movies1920x1080_pi.jpg?width=1920&height=1080&mode=crop);
+}
+h1.display-4 {
+    color: white;
+}
+.header-section {
+    display:flex;
+    flex-direction: row;
+}
+.main-info {
+    display: inline-block;
+    margin-top: 5px;
+}
+.image-place {
+    display: inline-block;
+    margin-right: 10px;
+}
+.movie-card {
+    background-color: #dfe6e9;
+    padding: 20px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
