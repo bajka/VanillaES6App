@@ -68,11 +68,14 @@ export class MovieApp {
         if (movieComponent) {
             this.movieContainer.removeChild(movieComponent);
         };
-        const errorMessage = document.createElement('h2');
-        errorMessage.id = 'error';
-        errorMessage.className = 'error-message';
-        errorMessage.innerHTML = 'There\'s no movie with this title';
-        this.movieContainer.appendChild(errorMessage);
+        let errorMessage = document.getElementById('error');
+        if(!errorMessage) {
+            errorMessage = document.createElement('h2');
+            errorMessage.id = 'error';
+            errorMessage.className = 'error-message';
+            errorMessage.innerHTML = 'There\'s no movie with this title';
+            this.movieContainer.appendChild(errorMessage);
+        }
     }
 
 }
